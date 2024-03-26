@@ -1,5 +1,5 @@
 
-print(" Конфиктная запись в main")
+print(" Конфликтная запись в main")
 
 for i in range(8)
     Print (i)
