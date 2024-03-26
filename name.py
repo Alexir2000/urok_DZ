@@ -1,6 +1,5 @@
-а = 7 # создание переменой
-
-b = 9
+for i in range(8)
+    Print (i)
 
 if a > b:
     print(" a больше чем b")
