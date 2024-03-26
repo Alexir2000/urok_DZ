@@ -9,6 +9,8 @@ if a > b:
     print(" a больше чем b")
 elif b > a:
     print(" изменение: b больше чем a")
+
+
 else:
     print(" b равно a")
 
