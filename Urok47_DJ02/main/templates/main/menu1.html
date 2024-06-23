@@ -1,0 +1,17 @@
+{% load static %}
+<img class="img-fluid mb-3" src="{% static 'main/img/mir.png' %}" alt="МИР">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'index' %}">На Главную</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'new' %}">Перейти на страницу NEW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'data' %}">Перейти на страницу DATA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'test' %}">Перейти на страницу TEST</a>
+                    </li>
+                </ul>
+
